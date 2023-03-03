@@ -1,0 +1,4 @@
+Work:
+In example one, x will print 1, while example two will print an error, 
+beacuse the argument is attemting ro access an interior variable, which is 
+only available to the method it is defined in.
