@@ -1,1 +1,6 @@
+Work:
+def greeting(name)
+  return "Hello, my name is #{name}"
+end
 
+puts greeting(Caden)

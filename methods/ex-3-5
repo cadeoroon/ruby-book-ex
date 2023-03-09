@@ -1,0 +1,8 @@
+Work:
+def scream(words)
+  words = words + "!!!!"
+  return words
+end
+
+scream("Yippeee")
+=> "Yippeee!!!!"

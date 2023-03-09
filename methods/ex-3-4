@@ -1,0 +1,11 @@
+Work:
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+=> nil
+
+beacuse the return causes a imediate termination of the method
