@@ -7,5 +7,8 @@ if words.length > 10
 else
    p "must be more than 10 characters"
 end
+
+if words.length > 10 then puts words.upcase : puts "must be more than 10 
+characters"
  
 
