@@ -1,0 +1,15 @@
+
+puts "Do you wat me to print a number? Yes or No"
+answer = gets.chomp.downcase
+
+while answer == "yes"
+  puts "What number would you like to print?"
+  number = gets.chomp.to_i
+  puts number
+
+  puts "print again?"
+  num = gets.chomp.upcase
+  if num == "STOP"
+    break
+  end
+end

@@ -1,0 +1,10 @@
+def down number
+  if number <= 0
+   p number
+  else
+    p number
+    down(number-1)
+  end
+end
+
+puts down(10)
