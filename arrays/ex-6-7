@@ -1,0 +1,4 @@
+my_array = ["caden", 12, "claire, 13]
+
+my_array.each_with_index{ |value, loc| p "#{loc + 1}: #{value}" }
+end

@@ -1,0 +1,4 @@
+the user is tring to set an element of an array to a string/integer. in 
+order to modify the arrays index you have to use index notation. putting 
+the name of the array and the location of the integer you wish to change 
+would fix the issue.
