@@ -1,0 +1,21 @@
+hash = { name: "caden", height: "5'9", weight: 140 }
+
+hash.each_key { |key| puts key }
+=>
+name
+height
+weight
+
+hash.each_value { |value| puts value }
+=> 
+"caden"
+"5'9"
+140
+
+hash.each do |k, v|
+  puts "#{k} : #{v}"
+end
+=>
+name : caden, 
+height : 5'9, 
+weight : 140, 

@@ -1,0 +1,17 @@
+merge
+arr1 = ["bob", "chris"]
+arr2 = ["dylan", "molly"]
+
+p arr1.merge(arr2)
+=> ["bob", "chris", "dylan", "molly"]
+p arr1 
+=> ["bob", "chris"]
+
+------------------------------
+merge!
+arr1 = ["bob", "chris"]  
+arr2 = ["dylan", "molly"]
+
+p arr1.merge!(arr2)
+=> ["bob", "chris", "dylan", "molly"]
+p arr1

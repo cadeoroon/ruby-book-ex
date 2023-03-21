@@ -1,0 +1,5 @@
+if hash.value?("caden")
+  puts "yep yep"
+else
+  puts "huh"
+end
