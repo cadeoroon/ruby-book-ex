@@ -1,0 +1,13 @@
+def check_words(text)
+  if /lab/.match(text)
+    puts "Text contains phrase!"
+  else
+    puts "Does not contain phrase."
+  end
+end
+
+check_words("laboratory")
+check_words("experiment")
+check_words("Pans Labyrinth")
+check_words("elaborate")
+check_words("polar bear")

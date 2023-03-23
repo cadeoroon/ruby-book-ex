@@ -1,0 +1,9 @@
+There is no block to call beacuse it is missing the ampersand (&).
+
+It should look something like this:
+
+def execute(&block)
+  block.call
+end
+
+execute { puts "Hello from inside the execute method!" }
