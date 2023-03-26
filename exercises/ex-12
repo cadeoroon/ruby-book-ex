@@ -1,0 +1,2 @@
+contacts["John Smith"][:email]
+contacts["Sally Johnson"][:phone]

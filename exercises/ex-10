@@ -1,0 +1,5 @@
+yes
+
+hashy = {arr: [1, 2, 3, 4]}
+
+arr = [hashy]

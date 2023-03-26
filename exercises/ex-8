@@ -1,0 +1,5 @@
+hash1 = {dog: "belle"}
+hash2 = {:dog=> "jake"}
+
+p hash1
+p hash2
